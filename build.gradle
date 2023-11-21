@@ -6,6 +6,8 @@ plugins {
 group = 'org.waineenterpraises'
 version = '1.0-SNAPSHOT'
 
+def allureVersion = "2.24.0"
+
 allure {
     report {
         version.set("2.24.0")

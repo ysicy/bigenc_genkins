@@ -1,3 +1,4 @@
+import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.*;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -5,9 +6,11 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+import static com.codeborne.selenide.Configuration.*;
+
 
 @Tag("simple")
-public class BigencCatalogSearcWithJenkins {
+public class BigencCatalogSearcWithJenkins extends TestBase{
 
 
     private static final String VALUE1= "Биология";

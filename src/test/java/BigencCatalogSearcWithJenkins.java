@@ -1,16 +1,20 @@
+import Attach.Attach;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.*;
 import io.qameta.allure.selenide.AllureSelenide;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import java.util.Map;
 
 import static com.codeborne.selenide.Configuration.*;
+import static com.codeborne.selenide.WebDriverRunner.closeWebDriver;
 
 
 @Tag("simple")
-public class BigencCatalogSearcWithJenkins extends TestBase{
+public class BigencCatalogSearcWithJenkins {
+
 
 
     private static final String VALUE1= "Биология";

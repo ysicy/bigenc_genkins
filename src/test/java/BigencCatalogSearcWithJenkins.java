@@ -24,7 +24,7 @@ public class BigencCatalogSearcWithJenkins extends TestBase{
     private  static final String ICON = "//span[contains(@class,'_categories')]";
     private static final String CATALOGUE = "//input[contains(@class,'b-search-input')]";
     private static final String PLASHKA = "//div[contains(@class,'search-suggestions__wrapper')]";
-    private static final String THEMATICPAGENAME= "//div[contains(@class,'bre-thematic-page')]";
+    private static final String THEMATICPAGENAME= "//h1[contains(@class,'custom-overflow-wrap-anywhere')]";
     private static final String VALUE1= "Биология";
     private static final String VALUE2= "История";
     private static final String VALUE3= "test";

@@ -42,9 +42,13 @@ test {
     useJUnitPlatform()
 }
 
-task simple_test(type: Test){
-    useJUnitPlatform{
+task simple_test(type: Test) {
+    useJUnitPlatform {
         includeTags("main")
     }
-
+}
+    task smoke_test(type: Test){
+        useJUnitPlatform{
+            includeTags("smoke")
+        }
 }

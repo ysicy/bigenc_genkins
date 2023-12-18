@@ -32,7 +32,7 @@ public class BigencCatalogSearcWithJenkins extends TestBase{
 
 
     @Test
-    @Tag("main")
+    @Tag("main"+"smoke")
     @Owner("ysicy")
     @Severity(SeverityLevel.BLOCKER)
     @DisplayName("Проверяем первое значение в каталоге")
@@ -56,7 +56,7 @@ public class BigencCatalogSearcWithJenkins extends TestBase{
 }
 
     @Test
-    @Tag("main")
+    @Tag("main"+"smoke")
     @Owner("ysicy")
     @Severity(SeverityLevel.BLOCKER)
     @DisplayName("Проверяем второе значение в каталоге")
